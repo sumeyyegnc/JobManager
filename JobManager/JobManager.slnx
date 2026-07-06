@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="jobmanager.Data/jobmanager.Data.csproj" />
+  <Project Path="jobmanager.Model/jobmanager.Model.csproj" />
+  <Project Path="JobManager/JobManager.csproj" />
+</Solution>

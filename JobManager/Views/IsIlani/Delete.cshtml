@@ -1,0 +1,26 @@
+﻿@model jobmanager.Model.IsIlani
+
+<h2>İş İlanı Sil</h2>
+
+<h4>Bu ilanı silmek istediğinize emin misiniz?</h4>
+
+<hr />
+
+<p><b>Başlık:</b> @Model.Baslik</p>
+<p><b>Açıklama:</b> @Model.Aciklama</p>
+
+<form method="post">
+
+    <input type="hidden" asp-for="IsIlaniId" />
+    <input type="hidden" asp-for="Baslik" />
+    <input type="hidden" asp-for="Aciklama" />
+
+    <button class="btn btn-danger">
+        Sil
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Vazgeç
+    </a>
+
+</form>
