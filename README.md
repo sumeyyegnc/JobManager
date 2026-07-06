@@ -1,5 +1,4 @@
-<img width="1920" height="1080" alt="Ekran Görüntüsü (102)" src="https://github.com/user-attachments/assets/fab0a359-c04c-4293-8597-f93c06e997be" />💼 JobManager
-
+JOB MANAGER
 This is Project #3 (Katmanlı Mimari - N-Tier Architecture) developed for an academic assignment. It is a dynamic web application built for an online job portal, featuring a public-facing landing page and dedicated panels to easily manage job postings, companies, and users. The application is secured with ASP.NET Core Cookie Authentication: registration, login, and session management. It features a robust dashboard for statistical reporting, capable of exporting data as PDF and Excel files. The project strictly adheres to Code-First Entity Framework Core principles and physically separates the Data, Model, and Web interfaces.
 
 Tech Stack
